@@ -92,7 +92,7 @@ int main() {
     printf("Digite o tamanho do tabuleiro: ");
     scanf("%d", &N);
 
-    if (N < 1) {
+    if (N <= 1) {
         printf("O tamanho deve ser maior que 0.\n");
         return 1;
     }
